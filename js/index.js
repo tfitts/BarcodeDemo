@@ -52,9 +52,6 @@ var app = {
     },
 
     scan: function() {
-        console.log('scanning');
-        
-        window.location = 'http://192.168.1.100/html/nexus/central.php?search=q4-3956';
         
         var scanner = cordova.require("cordova/plugin/BarcodeScanner");
 
